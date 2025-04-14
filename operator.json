@@ -1,0 +1,16 @@
+{
+    "name": "GSEA Operator",
+    "description": "GSEA for PamGene kinases.",
+    "tags": ["GSEA"],
+    "authors": ["PamGene, dschuller"],
+    "urls": ["https://github.com/pamgene/gsea_operator"],
+    "container":"pamgene/gsea_operator:0.0.1",
+    "properties": [
+        {
+            "kind": "DoubleProperty",
+            "name": "FDRThreshold",
+            "defaultValue": 0.3,
+            "description": "FDR threshold for GSEA"
+        }
+    ]
+}
