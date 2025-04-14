@@ -1,9 +1,3 @@
 renv/library/
-renv/local/
-renv/lock/
-renv/python/
 renv/staging/
 
-test
-tests
-workflow_tests
